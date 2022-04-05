@@ -1,11 +1,13 @@
 # ARG_metagenome
-Metagenomic analysis workflow for the identification and quantification of antimicrobial resistance genes (ARG) from human stool samples..
+Metagenomic analysis workflow for the identification and quantification of antimicrobial resistance genes (ARG) from human stool samples.
+
+## Please CITE
+<paper currently under review>
 
 ## Python packages 
 https://bic-berkeley.github.io/psych-214-fall-2016/sys_path.html (read the "crude hack" part)
-On spitfire, I have had problems using python modules, which are installed in /home/username directory. However, when running scripts that take a long time, the home directory times out and the script will stop. I also tried creating a conda environment, however, the conda env is also installed in the home directory and suffers from the same problem.
 
-Therefore, for stability, I installed necessary python packages directly in the folder where the scripts are to help python look for the necessary packages. Read the above link for more info. 
+These python packages directly in the folder where the scripts are to help python look for the necessary packages.  
 
 *numpy*
 bin/
@@ -31,7 +33,7 @@ six.pyc
 ## ARG pipeline script
 See the method_dev/ folder, individual steps are labelled with their step number and procedure. For example, step1_BMTagger.sh is for the 1st step in the AMR pipeline that removes human DNA with BMTagger. 
 
-"ARG_pipeline_v0.2.sh" is the master script containing the entire AMR pipeline, with preferred softwares/methods/orders of sequence processing.
+"ARG_pipeline_v0.X.sh" is the master script containing the entire AMR pipeline, with preferred software/method/order of sequence processing.
 
 	+ compare_merged_fq_N.sh: count the number of N base in a fastq file 
 	+ run_hts_Stat_xxx.sh: use hts software to generate pipeline status
