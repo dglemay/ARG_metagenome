@@ -1,10 +1,10 @@
 #!/bin/sh
 
 #       0. Starting files location
-starting_files_location=/share/lemaylab-backedup/Zeya/raw_data/NovaSeq072_rerun/Project_DLZA_Nova072P_Alkan_Pippin2
+starting_files_location=raw_data/NovaSeq072_rerun/Project_DLZA_Nova072P_Alkan_Pippin2
 
-unzipped_files_output=/share/lemaylab-backedup/Zeya/proceesed_data/NovaSeq072_rerun/unzipped
-mkdir /share/lemaylab-backedup/Zeya/proceesed_data/NovaSeq072_rerun
+unzipped_files_output=proceesed_data/NovaSeq072_rerun/unzipped
+mkdir proceesed_data/NovaSeq072_rerun
 mkdir $unzipped_files_output
 
 # for loop to unzip all gz file to fastq in one file 
