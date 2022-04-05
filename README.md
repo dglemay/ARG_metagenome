@@ -51,7 +51,7 @@ See the sequence_QC/ folder
 ## Taxonomy
 See the taxonomy/ folder
 
-	+ kraken2.sh: whole community taxonomy identification with Kracken2-Bracken pipeline
+	+ kraken2_struo95.sh: whole community taxonomy identification with Kracken2-Bracken pipeline
 	+ megahit_kraken_unmap.sh: troubleshooting script that assembles unmapped reads from Kraken2 
 	+ metaphlan2.sh: whole community taxonomy identification with metaphlan2 method
 
