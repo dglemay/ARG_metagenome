@@ -62,8 +62,8 @@ Parameters that need to be specified
 -x 0.1: mismatch ratio, default is 0.25, which is quite high 
 
 ## Step 5: Run MicrobeCensus on paired-end reads to calculate genome equivalents per sample
-- Initialization: see `ARG_metagenome/init/install_MicrobeCensus.sh` for install MicrobeCensus 1.1.1
-- Script: step 5 in `ARG_metagenome/master_pipeline/ARG_pipeline_v0.3.sh`
+- Initialization: see `/ARG_metagenome/init/install_MicrobeCensus.sh` for install MicrobeCensus 1.1.1
+- Script: step 5 in `/ARG_metagenome/master_pipeline/ARG_pipeline_v0.3.sh`
 - Input directory: `$run_dir/step3_fastuniq`
 - Output directory: `$run_dir/step5_MicrobeCensus`
 
@@ -108,15 +108,15 @@ Make sure to use only paired-end reads for assembly. Merged reads may have low q
 
 
 ## STEP 10. ID the taxonomy of contigs using CAT 
-- Initialization: download CAT v5.0.3 `/share/lemaylab-backedup/Zeya/scripts/ARG_metagenome/init/install_CAT.sh`
-- Script: step 10 in `/share/lemaylab-backedup/Zeya/scripts/ARG_metagenome/ARG_pipeline_v0.3.sh`
+- Initialization: download CAT v5.0.3 `/ARG_metagenome/init/install_CAT.sh`
+- Script: step 10 in `/ARG_metagenome/master_pipeline/ARG_pipeline_v0.3.sh`
 - Input files: `$run_dir/step9_contig_bwa_nomerg/*.fa`
 - Output directory: `$run_dir/step10_CAT`
 
 ## Community-wide taxa identification with kraken2 and bracken
 - Initialization for kraken2: `/ARG_metagenome/init/install_kraken2`
 - Initialization for bracken: `/ARG_metagenome/init/install_bracken`
-- Script: `/share/lemaylab-backedup/Zeya/scripts/ARG_metagenome/taxonomy/kraken2.sh`
+- Script: `/ARG_metagenome/taxonomy/kraken2.sh`
 - Input files:`$run_dir/step3_fastuniq`
 - Output files: `$run_dir/kraken2_ver2`
 
