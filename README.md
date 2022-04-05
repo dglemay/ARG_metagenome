@@ -35,13 +35,11 @@ six.pyc
 *dateutil*
 
 ## ARG pipeline script
-See the method_dev/ folder, individual steps are labelled with their step number and procedure. For example, step1_BMTagger.sh is for the 1st step in the AMR pipeline that removes human DNA with BMTagger. 
+See the master_pipeline/ folder
 
 "ARG_pipeline_v0.X.sh" is the master script containing the entire AMR pipeline, with preferred software/method/order of sequence processing.
 
-	+ compare_merged_fq_N.sh: count the number of N base in a fastq file 
-	+ run_hts_Stat_xxx.sh: use hts software to generate pipeline status
-	+ ARG_detection_limit.txt: Find the detection limit ARG (1 sequence count after MicrobeCensus normalization)
+Individual steps of the pipeline are in method_dev/ folder. Individual steps are labelled with their step number and procedure. For example, step1_BMTagger.sh is for the 1st step in the AMR pipeline that removes human DNA with BMTagger. 
 
 ## Sequence Quality Control
 See the sequence_QC/ folder
