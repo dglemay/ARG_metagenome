@@ -3,7 +3,8 @@ Metagenomic analysis workflow for the identification and quantification of antim
 Authors = Zeya Xue, Yirui Tang, Danielle Lemay
 
 ## Please CITE
-To be updated: paper currently under review
+Oliver A, Xue Z, Villanueva YT, Durbin-Johnson B, Alkan Z, Taft DH, Liu J, Korf I, Laugero KD, Stephensen CB, Mills DA, Kable ME, Lemay DG. Association of Diet and Antimicrobial Resistance in Healthy U.S. Adults. mBio. 2022 Jun 28;13(3):e0010122. doi: 10.1128/mbio.00101-22. Epub 2022 May 10. PMID: 35536006; PMCID: PMC9239165.
+Link to the paper: https://pubmed.ncbi.nlm.nih.gov/35536006/
 
 ## Dowload software and databases
 See the init/ folder for scripts that were used for dowloading and setting up software/databases. 
